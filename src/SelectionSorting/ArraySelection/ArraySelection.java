@@ -21,4 +21,5 @@ public class ArraySelection {
         intArray = new int[max];
         nElems = 0;
     }
+
 }
