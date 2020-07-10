@@ -23,5 +23,4 @@ public class Main {
         aSelection.SelectionSort();
         aSelection.display();
     }
-
 }
