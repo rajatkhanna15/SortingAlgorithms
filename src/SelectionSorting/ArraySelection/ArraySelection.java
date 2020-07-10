@@ -32,4 +32,14 @@ public class ArraySelection {
         nElems++;
     }
 
+    /**
+     * display() method to display the data items in the array.
+     */
+    public void display()
+    {
+        for (int i = 0; i < nElems; i++) {
+            System.out.println(intArray[i] + " ");
+        }
+        System.out.println();
+    }
 }
