@@ -38,7 +38,7 @@ public class ArraySelection {
     public void display()
     {
         for (int i = 0; i < nElems; i++) {
-            System.out.println(intArray[i] + " ");
+            System.out.print(intArray[i] + " ");
         }
         System.out.println();
     }
