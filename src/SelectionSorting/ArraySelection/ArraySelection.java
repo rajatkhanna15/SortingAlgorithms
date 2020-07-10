@@ -22,4 +22,13 @@ public class ArraySelection {
         nElems = 0;
     }
 
+    /**
+     * insert() method to insert the values in the array and increase the number of elements.
+     * @param value the value
+     */
+    public void insert(int value)
+    {
+        intArray[nElems] = value;
+        nElems++;
+    }
 }
