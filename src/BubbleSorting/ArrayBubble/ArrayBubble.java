@@ -33,6 +33,17 @@ public class ArrayBubble {
     }
 
 
+    /**
+     * display() method to display the data items.
+     */
+    public void display()
+    {
+        for (int i = 0; i < nElems; i++) {
+            System.out.print(intArray[i] + " ");
+        }
+        System.out.println();
+    }
+
 
 
 
