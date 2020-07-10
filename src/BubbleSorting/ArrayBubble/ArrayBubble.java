@@ -74,8 +74,4 @@ public class ArrayBubble {
         array[second] = temp;
     }
 
-
-
-
-
 }
