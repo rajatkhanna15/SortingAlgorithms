@@ -59,6 +59,21 @@ public class ArrayBubble {
         }
     }
 
+    /**
+     * swap method to swap the two elements for sorting operation
+     * @param array the array
+     * @param first the first
+     * @param second the second
+     */
+    public void swap(int[] array,int first,int second)
+    {
+        if(first==second)
+            return;
+        int temp = array[first];
+        array[first] = array[second];
+        array[second] = temp;
+    }
+
 
 
 
