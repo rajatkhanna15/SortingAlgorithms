@@ -12,4 +12,13 @@ public class ArraySelection {
     private int[] intArray;
     private int nElems;
 
+    /**
+     * Parameterised constructor to initialise the array and number of elements to 0.
+     * @param max the max
+     */
+    public ArraySelection(int max)
+    {
+        intArray = new int[max];
+        nElems = 0;
+    }
 }
