@@ -43,4 +43,20 @@ public class ArraySelection {
         System.out.println();
     }
 
+    /**
+     * selectionSort() method to show the basic implementation of Selection Sorting.
+     */
+    public void SelectionSort()
+    {
+        int min;
+        for(int sorted = 0;sorted < nElems - 1; sorted++)
+        {
+            min = sorted;
+            for (int index = min+1; index < nElems; index++) {
+                if(intArray[index] < intArray[min])
+                    min = index;
+                swap(intArray,sorted,min);
+            }
+        }
+    }
 }
