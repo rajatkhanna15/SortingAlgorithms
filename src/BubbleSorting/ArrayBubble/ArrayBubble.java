@@ -22,6 +22,15 @@ public class ArrayBubble {
     }
 
 
+    /**
+     * insert() method to insert the data items in the array and as a result increment the number of elements.
+     * @param value the value
+     */
+    public void insert(int value)
+    {
+        intArray[nElems] = value;
+        nElems++;
+    }
 
 
 
