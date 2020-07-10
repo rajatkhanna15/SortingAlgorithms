@@ -45,6 +45,19 @@ public class ArrayBubble {
     }
 
 
+    /**
+     * bubbleSort() method to show the implementation of bubble sort.
+     */
+    public void bubbleSort()
+    {
+        for(int lastUnsortedIndex = nElems-1; lastUnsortedIndex > 0; lastUnsortedIndex --)
+        {
+            for (int index = 0; index < lastUnsortedIndex; index++) {
+                if(intArray[index] > intArray[index+1] )
+                    swap(intArray,index,index+1);
+            }
+        }
+    }
 
 
 
