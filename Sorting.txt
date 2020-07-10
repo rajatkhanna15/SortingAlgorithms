@@ -1,0 +1,5 @@
+This is the project for showing the various techniques to sort the given data.
+The various sorting techniques are as follows:
+    1. Bubble Sort
+    2. Selection Sort
+    3. Insertion Sort
