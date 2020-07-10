@@ -11,4 +11,15 @@ public class ArrayBubble {
     private int[] intArray;
     private int nElems;
 
+    /**
+     * Parametrised constructor to initialise the array and initialise nElems to 0.
+     * @param max the max
+     */
+    public ArrayBubble(int max)
+    {
+        intArray = new int[max];
+        nElems = 0;
+    }
+
+
 }
