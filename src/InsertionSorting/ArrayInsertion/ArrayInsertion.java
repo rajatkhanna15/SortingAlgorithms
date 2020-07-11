@@ -32,4 +32,14 @@ public class ArrayInsertion {
         nElems++;
     }
 
+    /**
+     * display() method to display the elements in the array.
+     */
+    public void display()
+    {
+        for (int i = 0; i < nElems; i++) {
+            System.out.print(intArray[i] + " ");
+        }
+        System.out.println();
+    }
 }
