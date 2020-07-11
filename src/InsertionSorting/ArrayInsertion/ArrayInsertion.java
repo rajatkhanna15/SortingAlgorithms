@@ -21,4 +21,5 @@ public class ArrayInsertion {
         intArray = new int[max];
         nElems = 0;
     }
+
 }
