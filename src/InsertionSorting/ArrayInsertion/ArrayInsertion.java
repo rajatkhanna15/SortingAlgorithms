@@ -12,4 +12,13 @@ public class ArrayInsertion {
     private int[] intArray;
     private int nElems;
 
+    /**
+     * Parametrised constructor to declare array with max and initialise nElems to 0.
+     * @param max the max
+     */
+    public ArrayInsertion(int max)
+    {
+        intArray = new int[max];
+        nElems = 0;
+    }
 }
