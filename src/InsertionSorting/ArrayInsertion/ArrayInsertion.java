@@ -22,4 +22,13 @@ public class ArrayInsertion {
         nElems = 0;
     }
 
+    /**
+     * insert() method to insert the values in the array.
+     * @param value the value to be inserted.
+     */
+    public void insert(int value)
+    {
+        intArray[nElems] = value;
+        nElems++;
+    }
 }
