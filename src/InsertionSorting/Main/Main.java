@@ -26,4 +26,5 @@ public class Main {
         aSelection.insertionSort();
         aSelection.display();
     }
+
 }
