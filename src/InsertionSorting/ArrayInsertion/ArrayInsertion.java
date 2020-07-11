@@ -43,4 +43,22 @@ public class ArrayInsertion {
         System.out.println();
     }
 
+    /**
+     * insertionSort() method to show the implementation of Insertion Sort.
+     */
+    public void insertionSort()
+    {
+        int in , out;
+        for (out = 1; out < nElems; out++) {
+            int temp = intArray[out];                                   //Element at first index.
+            in = out;
+            while(in > 0 && intArray[in-1] >= temp)
+            {
+                intArray[in] = intArray[in-1];
+                --in;
+            }
+            intArray[in] = temp;
+        }
+    }
+
 }
