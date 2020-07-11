@@ -60,5 +60,4 @@ public class ArrayInsertion {
             intArray[in] = temp;
         }
     }
-
 }
